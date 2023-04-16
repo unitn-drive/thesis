@@ -14,7 +14,7 @@
   "devDependencies": {
     "@cspell/dict-en_us": "^4.3.2",
     "@cspell/dict-it-it": "^3.0.1",
-    "@cspell/dict-latex": "^3.1.0",
+    "@cspell/dict-latex": "^4.0.0",
     "@cspell/dict-markdown": "^2.0.1",
     "@cspell/dict-npm": "^5.0.5",
     "cspell": "^6.31.1",
