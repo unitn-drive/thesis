@@ -1,0 +1,14 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "useGitignore": true,
+  "import": [
+    "@cspell/dict-en_us/cspell-ext.json",
+    "@cspell/dict-it-it/cspell-ext.json",
+    "@cspell/dict-latex/cspell-ext.json",
+    "@cspell/dict-markdown/cspell-ext.json",
+    "@cspell/dict-npm/cspell-ext.json"
+  ],
+  "ignorePaths": ["**/build/", "**/node_modules/", "./package.json"],
+  "words": ["booktitle", "howpublished"]
+}

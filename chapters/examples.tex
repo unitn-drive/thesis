@@ -1,0 +1,43 @@
+\chapter{Examples}
+\label{cha:examples}
+
+\section{Citations}
+\label{cha:examples_citations}
+
+\texttt{@misc}\cite{misc} \\ %
+\texttt{@book}\cite{book} \\ %
+\texttt{@conference}\cite{conference} \\ %
+\texttt{@article}\cite{article}
+
+\section{Figures}
+\label{cha:examples_figures}
+
+\begin{figure}[htbp]
+  \centering
+  \def\stackalignment{r}\stackunder{ \includegraphics[width=.5\linewidth]{images/logo/unitn.png} } %
+  {\scriptsize Source: \url{https://www.unitn.it} }
+  \caption{University of Trento logo}
+  \label{fig:unitn}
+\end{figure}
+
+\begin{wrapfigure}
+  {r}{.25\textwidth} %
+  \centering
+  \def\stackalignment{r}\stackunder{ \includegraphics[width=\linewidth]{images/logo/unitn.png} } %
+  {\scriptsize \parbox[t]{\linewidth}{ Source: \url{https://www.unitn.it}} }
+  \caption{University of Trento logo}
+  \label{fig:unitn_wrapfigure_right}
+\end{wrapfigure}
+
+\lipsum[1]
+
+\begin{wrapfigure}
+  {l}{.25\textwidth} %
+  \centering
+  \def\stackalignment{l}\stackunder{ \includegraphics[width=\linewidth]{images/logo/unitn.png} } %
+  {\scriptsize \parbox[t]{\linewidth}{ Source: \url{https://www.unitn.it}} }
+  \caption{University of Trento logo}
+  \label{fig:unitn_wrapfigure_left}
+\end{wrapfigure}
+
+\lipsum[1]

@@ -1,6 +1,52 @@
-# About
-This repository's name is: thesis.
+# Thesis Template
 
-To get started, clone the repository and make some changes.
+[![ci](https://github.com/unitn-drive/thesis/actions/workflows/ci.yml/badge.svg)](https://github.com/unitn-drive/thesis/actions/workflows/ci.yml)
 
-To invite people to this repo, please contact the organization administrator.
+Thesis Template for Computer Science at the [University of Trento](https://www.unitn.it).
+
+## Development
+
+### Requirements
+
+| **Name**   | **Homepage**                  |
+| ---------- | ----------------------------- |
+| `TeX Live` | <https://www.tug.org/texlive> |
+| `Node.js`  | <https://nodejs.org>          |
+| `npm`      | <https://www.npmjs.com>       |
+
+### Preparation
+
+1. Clone
+
+   ```sh
+   git clone https://github.com/unitn-drive/thesis.git
+   cd thesis
+   ```
+
+1. Install Dependencies
+
+   ```sh
+   npm ci
+   ```
+
+### Build
+
+```sh
+npm run build
+```
+
+### Scripts
+
+> **Note**: Execute with `npm run <NAME>`
+
+| **Name** | **Description**  |
+| -------- | ---------------- |
+| `build`  | Build PDF        |
+| `check`  | Check for errors |
+| `clean`  | Clean            |
+| `fix`    | Fix errors       |
+
+## License
+
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) License. \
+See [LICENSE](./LICENSE) file for details.
