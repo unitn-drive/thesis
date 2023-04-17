@@ -1,6 +1,6 @@
 # Thesis Template
 
-[![ci](https://github.com/unitn-drive/thesis/actions/workflows/ci.yml/badge.svg)](https://github.com/unitn-drive/thesis/actions/workflows/ci.yml)
+[![ci](https://github.com/unitn-drive/thesis/actions/workflows/ci.yaml/badge.svg)](https://github.com/unitn-drive/thesis/actions/workflows/ci.yaml)
 
 Thesis Template for Computer Science at the [University of Trento](https://www.unitn.it).
 
