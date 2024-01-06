@@ -2,9 +2,12 @@
 
 [![ci](https://github.com/unitn-drive/thesis/actions/workflows/ci.yaml/badge.svg)](https://github.com/unitn-drive/thesis/actions/workflows/ci.yaml)
 
-Thesis Template for Computer Science at the [University of Trento](https://www.unitn.it).
+Thesis Template for Computer Science at the [University of Trento](https://www.unitn.it)
 
 ## Development
+
+> [!TIP]
+> It is highly recommended to use [`Visual Studio Code`](https://code.visualstudio.com) editor
 
 ### Requirements
 
@@ -48,5 +51,5 @@ npm run build
 
 ## License
 
-This project is licensed under the [MIT](https://opensource.org/licenses/MIT) License. \
-See [LICENSE](./LICENSE) file for details.
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license \
+See [LICENSE](./LICENSE) file for details

@@ -2,6 +2,7 @@
   "recommendations": [
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
+    "Gruntfuggly.todo-tree",
     "James-Yu.latex-workshop",
     "streetsidesoftware.code-spell-checker",
     "usernamehw.errorlens"

@@ -34,7 +34,6 @@
 % List
 \usepackage{enumitem}
 
-
 % START: DELETE ME
 \usepackage{lipsum}
 % END: DELETE ME
@@ -46,12 +45,10 @@
   \input{etc/cover}
   \clearpage
 
-
   % Acknowledgements
   \input{etc/acknowledgements}
   \clearpage
   \pagestyle{plain}
-
 
   % Table of Contents
   \frontmatter
@@ -66,25 +63,21 @@
   % Start page numbering
   \mainmatter
 
-
   % Group to define space between chapters
   \begingroup
   % Override format of title chapter
-  \titleformat{\chapter} {\normalfont\Huge\bfseries}{\thechapter}{1em}{}
-  \titlespacing*{\chapter}{0pt}{0.59in}{0.02in} \titlespacing*{\section}{0pt}{0.20in}{0.02in}
-  \titlespacing*{\subsection}{0pt}{0.10in}{0.02in} \titlespacing*{\subsubsection}{0pt}{0.05in}{0.02in}
+  \titleformat{\chapter} {\normalfont\Huge\bfseries}{\thechapter}{1em}{} \titlespacing*{\chapter}{0pt}{0.59in}{0.02in}
+  \titlespacing*{\section}{0pt}{0.20in}{0.02in} \titlespacing*{\subsection}{0pt}{0.10in}{0.02in}
+  \titlespacing*{\subsubsection}{0pt}{0.05in}{0.02in}
 
   % Abstract
   \input{etc/abstract.tex}
 
-
   % Chapters
   \input{chapters/examples.tex}
 
-
   % Conclusions
   \input{etc/conclusions.tex}
-
 
   \endgroup
 
@@ -93,7 +86,6 @@
   % Alphabetical order of authors
   \bibliographystyle{plain}
   \bibliography{bibliography.bib}
-
 
   % Attachments
   \titleformat{\chapter} {\normalfont\Huge\bfseries}{Appendix \thechapter}{1em}{}
