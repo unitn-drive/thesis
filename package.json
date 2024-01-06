@@ -3,24 +3,24 @@
   "scripts": {
     "prebuild": "npm run clean",
     "build": "latexmk -interaction=nonstopmode -file-line-error -pdf -halt-on-error -outdir=build main",
-    "postbuild": "npx shx cp ./build/main.pdf ./surname_name_computer_science_2022_2023.pdf",
+    "postbuild": "npx shx cp ./build/main.pdf ./surname_name_computer_science_2023_2024.pdf",
     "check": "npx npm-run-all --npm-path npm check:*",
     "check:format": "npx prettier --check .",
     "check:spell": "npx cspell lint --config cspell.json --no-progress --show-context \"**\"",
-    "clean": "npx shx rm -rf ./build ./surname_name_computer_science_2022_2023.pdf",
+    "clean": "npx shx rm -rf ./build ./surname_name_computer_science_2023_2024.pdf",
     "fix": "npx npm-run-all --npm-path npm fix:*",
     "fix:format": "npx prettier --write ."
   },
   "devDependencies": {
-    "@cspell/dict-en_us": "^4.3.2",
-    "@cspell/dict-it-it": "^3.0.1",
+    "@cspell/dict-en_us": "^4.3.13",
+    "@cspell/dict-it-it": "^3.1.0",
     "@cspell/dict-latex": "^4.0.0",
     "@cspell/dict-markdown": "^2.0.1",
-    "@cspell/dict-npm": "^5.0.5",
-    "cspell": "^6.31.1",
+    "@cspell/dict-npm": "^5.0.14",
+    "cspell": "^8.3.2",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.8.7",
-    "prettier-plugin-latex": "^1.2.4",
+    "prettier": "^3.1.1",
+    "prettier-plugin-latex": "^2.0.1",
     "shx": "^0.3.4"
   }
 }
