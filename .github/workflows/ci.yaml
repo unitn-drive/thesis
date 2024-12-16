@@ -17,6 +17,7 @@ concurrency:
 jobs:
   ci:
     runs-on: ubuntu-latest
+    container: texlive/texlive:latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -33,12 +34,6 @@ jobs:
             printf '[ERROR]: Git tag (%s) wrong format\n' "$_tag"
             exit 1
           fi
-
-      - name: Install TeX Live
-        uses: teatimeguest/setup-texlive-action@v3
-        with:
-          packages: >-
-            scheme-full
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
