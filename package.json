@@ -12,7 +12,7 @@
     "fix:format": "npx prettier --write ."
   },
   "devDependencies": {
-    "@cspell/dict-en_us": "^4.3.13",
+    "@cspell/dict-en_us": "^4.4.3",
     "@cspell/dict-it-it": "^3.1.0",
     "@cspell/dict-latex": "^4.0.0",
     "@cspell/dict-markdown": "^2.0.1",
