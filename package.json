@@ -19,7 +19,7 @@
     "@cspell/dict-npm": "^5.2.4",
     "cspell": "^9.4.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^3.7.3",
+    "prettier": "^3.8.0",
     "prettier-plugin-latex": "^2.0.1",
     "shx": "^0.4.0"
   }
